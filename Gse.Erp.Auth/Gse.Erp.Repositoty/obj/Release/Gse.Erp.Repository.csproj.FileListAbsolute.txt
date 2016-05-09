@@ -1,0 +1,11 @@
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.Erp.Auth\Gse.Erp.Repositoty\bin\Release\Gse.Erp.Repositoty.dll.config
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.Erp.Auth\Gse.Erp.Repositoty\bin\Release\Gse.Erp.Repositoty.dll
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.Erp.Auth\Gse.Erp.Repositoty\bin\Release\Gse.Erp.Repositoty.pdb
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.Erp.Auth\Gse.Erp.Repositoty\bin\Release\EntityFramework.dll
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.Erp.Auth\Gse.Erp.Repositoty\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.Erp.Auth\Gse.Erp.Repositoty\bin\Release\EntityFramework.xml
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.Erp.Auth\Gse.Erp.Repositoty\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.Erp.Auth\Gse.Erp.Repositoty\bin\Release\es\EntityFramework.resources.dll
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.Erp.Auth\Gse.Erp.Repositoty\bin\Release\es\EntityFramework.SqlServer.resources.dll
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.Erp.Auth\Gse.Erp.Repositoty\obj\Release\Gse.Erp.Repositoty.dll
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.Erp.Auth\Gse.Erp.Repositoty\obj\Release\Gse.Erp.Repositoty.pdb
