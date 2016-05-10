@@ -1,4 +1,4 @@
-namespace Gse.Erp.MvcAuth.Data.Migrations
+namespace Gse.Erp.Auth.Data.Migrations
 {
     using Microsoft.AspNet.Identity;
     using Microsoft.AspNet.Identity.EntityFramework;
@@ -7,13 +7,13 @@ namespace Gse.Erp.MvcAuth.Data.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<Gse.Erp.MvcAuth.Data.GseComunDbContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<Gse.Erp.Auth.Data.GseComunDbContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
-        bool AddUserAndRole(Gse.Erp.MvcAuth.Data.GseComunDbContext context)
+        bool AddUserAndRole(Gse.Erp.Auth.Data.GseComunDbContext context)
         {
             IdentityResult ir;
             var rm = new RoleManager<IdentityRole>
@@ -31,7 +31,7 @@ namespace Gse.Erp.MvcAuth.Data.Migrations
             ir = um.AddToRole(user.Id, "canEdit");
             return ir.Succeeded;
         }
-        protected override void Seed(Gse.Erp.MvcAuth.Data.GseComunDbContext context)
+        protected override void Seed(Gse.Erp.Auth.Data.GseComunDbContext context)
         {
             //  This method will be called after migrating to the latest version.
             AddUserAndRole(context);

@@ -3,13 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gse.Erp.MvcAuth", "Gse.Erp.Auth\Gse.Erp.MvcAuth.csproj", "{09933215-88D0-42E8-9E7A-F7B1494ECB80}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gse.Erp.Auth.Mvc", "Gse.Erp.Auth.Mvc\Gse.Erp.Auth.Mvc.csproj", "{09933215-88D0-42E8-9E7A-F7B1494ECB80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gse.Erp.OAuth2", "..\Gse.Erp.OAuth2\Gse.Erp.OAuth2\Gse.Erp.OAuth2.csproj", "{6E48CA9A-F080-4E96-9024-D715F5AF9CE1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gse.Erp.Auth.Repository", "Gse.Erp.Auth.Repositoty\Gse.Erp.Auth.Repository.csproj", "{DB31E1FD-7473-4F23-B269-14B3ED1ED886}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gse.Erp.MvcAuth.Repository", "Gse.Erp.Repositoty\Gse.Erp.MvcAuth.Repository.csproj", "{DB31E1FD-7473-4F23-B269-14B3ED1ED886}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gse.Erp.MvcAuth.Data", "Gse.Erp.Auth.Data\Gse.Erp.MvcAuth.Data.csproj", "{E51AE97A-0FFB-47F3-954F-CFF9A4ED42AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gse.Erp.Auth.Data", "Gse.Erp.Auth.Data\Gse.Erp.Auth.Data.csproj", "{E51AE97A-0FFB-47F3-954F-CFF9A4ED42AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +19,6 @@ Global
 		{09933215-88D0-42E8-9E7A-F7B1494ECB80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09933215-88D0-42E8-9E7A-F7B1494ECB80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09933215-88D0-42E8-9E7A-F7B1494ECB80}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6E48CA9A-F080-4E96-9024-D715F5AF9CE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6E48CA9A-F080-4E96-9024-D715F5AF9CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6E48CA9A-F080-4E96-9024-D715F5AF9CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6E48CA9A-F080-4E96-9024-D715F5AF9CE1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DB31E1FD-7473-4F23-B269-14B3ED1ED886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DB31E1FD-7473-4F23-B269-14B3ED1ED886}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB31E1FD-7473-4F23-B269-14B3ED1ED886}.Release|Any CPU.ActiveCfg = Release|Any CPU
