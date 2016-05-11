@@ -16,19 +16,19 @@ namespace Gse.Erp.Auth.Mvc.Controllers
         }
 
         [AllowAnonymous]
-        public ActionResult About()
+        public PartialViewResult About()
         {
             ViewBag.Message = "Your application description page.";
 
-            return View();
+            return PartialView(); //View();
         }
 
         [AllowAnonymous]
-        public ActionResult Contact()
+        public PartialViewResult Contact()
         {
             ViewBag.Message = "Your contact page.";
 
-            return View();
+            return PartialView(); //return View();
         }
     }
 }
