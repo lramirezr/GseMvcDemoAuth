@@ -187,9 +187,46 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\assets\brand\bootstrap-outline.svg" />
+    <Content Include="Content\assets\brand\bootstrap-punchout.svg" />
+    <Content Include="Content\assets\brand\bootstrap-solid.svg" />
+    <Content Include="Content\assets\css\docs.min.css" />
+    <Content Include="Content\assets\css\ie10-viewport-bug-workaround.css" />
+    <Content Include="Content\assets\css\src\docs.css" />
+    <Content Include="Content\assets\css\src\pygments-manni.css" />
+    <Content Include="Content\assets\flash\ZeroClipboard.swf" />
+    <Content Include="Content\assets\img\components.png" />
+    <Content Include="Content\assets\img\devices.png" />
+    <Content Include="Content\assets\img\expo-lyft.jpg" />
+    <Content Include="Content\assets\img\expo-newsweek.jpg" />
+    <Content Include="Content\assets\img\expo-riot.jpg" />
+    <Content Include="Content\assets\img\expo-vogue.jpg" />
+    <Content Include="Content\assets\img\sass-less.png" />
+    <Content Include="Images\Shared\icono-gse.png" />
+    <Content Include="Images\Shared\logo-gse-225.png" />
+    <Content Include="Images\Shared\logo-gse-cabecerapek.png" />
+    <Content Include="Scripts\assets\js\customize.min.js" />
+    <Content Include="Scripts\assets\js\docs.min.js" />
+    <Content Include="Scripts\assets\js\ie-emulation-modes-warning.js" />
+    <Content Include="Scripts\assets\js\ie10-viewport-bug-workaround.js" />
+    <Content Include="Scripts\assets\js\ie8-responsive-file-warning.js" />
+    <Content Include="Scripts\assets\js\raw-files.min.js" />
+    <Content Include="Scripts\assets\js\src\application.js" />
+    <Content Include="Scripts\assets\js\src\customizer.js" />
+    <Content Include="Scripts\assets\js\vendor\anchor.js" />
+    <Content Include="Scripts\assets\js\vendor\autoprefixer.js" />
+    <Content Include="Scripts\assets\js\vendor\Blob.js" />
+    <Content Include="Scripts\assets\js\vendor\FileSaver.js" />
+    <Content Include="Scripts\assets\js\vendor\holder.min.js" />
+    <Content Include="Scripts\assets\js\vendor\jquery.min.js" />
+    <Content Include="Scripts\assets\js\vendor\jszip.min.js" />
+    <Content Include="Scripts\assets\js\vendor\less.min.js" />
+    <Content Include="Scripts\assets\js\vendor\uglify.min.js" />
+    <Content Include="Scripts\assets\js\vendor\ZeroClipboard.min.js" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Empresas\Empresas.css" />
+    <Content Include="Content\Shared\cover.css" />
     <Content Include="Content\Shared\_Layout.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -197,6 +234,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\assets\css\docs.min.css.map" />
     <None Include="Properties\PublishProfiles\GseMvcAuth.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -212,10 +250,8 @@
     <Content Include="Scripts\_references.js" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
     <Content Include="Views\Account\ConfirmEmail.cshtml" />
     <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
@@ -250,6 +286,8 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Views\Web.config" />
+    <Content Include="Views\Shared\_GseLayout.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
@@ -259,6 +297,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Scripts\Shared\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

@@ -11,6 +11,7 @@ C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.Erp.Auth\Gse.Erp.Auth.Da
 C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.Erp.Auth\Gse.Erp.Auth.Data\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.Erp.Auth\Gse.Erp.Auth.Data\bin\Release\es\Microsoft.AspNet.Identity.Core.resources.dll
 C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.Erp.Auth\Gse.Erp.Auth.Data\bin\Release\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.Erp.Auth\Gse.Erp.Auth.Data\obj\Release\Gse.Erp.Auth.Data.csprojResolveAssemblyReference.cache
 C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.Erp.Auth\Gse.Erp.Auth.Data\obj\Release\Gse.Erp.Auth.Data.Migrations.Initial.resources
 C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.Erp.Auth\Gse.Erp.Auth.Data\obj\Release\Gse.Erp.Auth.Data.Migrations.UpdateUsuarioFechaBaja.resources
 C:\Users\luis\Documents\Visual Studio 2015\Projects\Gse.Erp.Auth\Gse.Erp.Auth.Data\obj\Release\Gse.Erp.Auth.Data.Migrations.UpdateUsuarioFechaNacimiento.resources
