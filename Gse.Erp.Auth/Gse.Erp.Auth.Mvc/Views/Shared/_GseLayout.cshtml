@@ -90,29 +90,23 @@
 </html>
 <script language="javascript">
 
-    var setActiveLink = function() { 
+    var setActiveLink = function () {
+
         $.each($("nav ul.nav.masthead-nav li"), function (index, value) {
             $(value).removeClass("active");
         });
         
-        // render selectedView
-         //var uri = $(this).find("a").prop("href");
         var uri = $(this).find("a").attr("href");
-        // var action = $(this).find("a").attr("href").split("/")[2];
-        /*var _url = (action) ?
-                        uri + ".cshtml"
-                        : uri;*/
-        //$.ajax({
-        //    method: "GET",
-        //    contentType: 'application/html; charset=UTF-8',
-        //    dataType: 'html',
-        //    url: uri,
-        //    success: function (view) {
-        //        debugger;
-        //        $("div.inner.cover").html(view);
-        //        $(this).addClass("active");
-        //    }
-        //});
+        $.ajax({
+            method: "GET",
+            contentType: 'application/html; charset=UTF-8',
+            dataType: 'html',
+            url: uri,
+            success: function (view) {
+                $("div.inner.cover").html(view);
+                $("nav ul.nav.masthead-nav li").find("a[href='" + this.url + "']").parent().addClass("active");
+            }
+        });
     };
 
     $(document).ready(function () {

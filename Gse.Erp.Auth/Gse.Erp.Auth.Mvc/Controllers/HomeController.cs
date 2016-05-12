@@ -16,7 +16,7 @@ namespace Gse.Erp.Auth.Mvc.Controllers
         }
 
         [AllowAnonymous]
-        public PartialViewResult About()
+        public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
 
@@ -24,7 +24,7 @@ namespace Gse.Erp.Auth.Mvc.Controllers
         }
 
         [AllowAnonymous]
-        public PartialViewResult Contact()
+        public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
 
