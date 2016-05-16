@@ -46,6 +46,9 @@ namespace Gse.Erp.Auth.Mvc
             /* javascript ~ GseBootstrap */
             bundles.Add(new ScriptBundle("~/bundles/GseBootstrap").Include(
                       "~/Scripts/bootstrap.min.js"));
+
+            bundles.Add(new ScriptBundle("~/bundles/GseLayout").Include(
+                "~/Scripts/Shared/_gselayout.js"));
         }
     }
 }

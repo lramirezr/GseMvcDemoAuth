@@ -93,39 +93,6 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     @*<script src="assets/js/ie10-viewport-bug-workaround.js"></script>*@
     @Scripts.Render("~/bundles/assets-viewport")
+    @Scripts.Render("~/bundles/GseLayout")
 </body>
 </html>
-<script language="javascript">
-
-    var setActiveLink = function (e) {
-
-        var hash = (e.target.hash.split('#')[1] || '');
-        var uri = "/Home/" + hash; // $(this).find("a").attr("href");
-
-        $.each($("nav ul.nav.masthead-nav li"), function (index, value) {
-            $(value).removeClass("active");
-        });
-
-        if (hash !== '') {
-            $.ajax({
-                method: "GET",
-                //contentType: 'application/html; charset=UTF-8',
-                //dataType: 'html',
-                url: uri,
-                success: function (view) {
-                    // $("div.inner.cover").html(view);
-                    $("#content").html(view);
-                    $("nav ul.nav.masthead-nav li").find("a[href='" + location.hash + "']").parent().addClass("active");
-                }
-            });
-        } else {
-            location.href = location.origin;
-        }
-    };
-
-    $(document).ready(function () {
-        $.each($("nav ul.nav.masthead-nav li"), function (index, value) {
-            value.addEventListener("click", setActiveLink, false);
-        });
-    });
-</script>
