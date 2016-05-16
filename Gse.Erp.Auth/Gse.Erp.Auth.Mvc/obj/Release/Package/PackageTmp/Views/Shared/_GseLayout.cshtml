@@ -44,23 +44,34 @@
                         <nav>
                             <ul class="nav masthead-nav">
                                 <li class="active">
-                                    @Html.ActionLink("Inicio", "Index", "Home")
+                                    @*@Html.ActionLink("Inicio", "Index", "Home")*@
+                                    <a href="#">Inicio</a>
                                 </li>
                                 <li>
-                                    @Html.ActionLink("Contacto", "Contact", "Home")
+                                    @*@Html.ActionLink("Contacto", "Contact", "Home")*@
+                                    <a href="#Contact">Contacto</a>
                                 </li>
                                 <li>
-                                    @Html.ActionLink("Acerca de", "About", "Home")
+                                    @*@Html.ActionLink("Acerca de", "About", "Home")*@
+                                    <a href="#About">Acerca de</a>
                                 </li>
+                               <!-- 
+                                <li>
+                                    @*@Html.ActionLink("Direcciones", "Address", "Home")*@
+                                    <a href="#Address">Direcciones</a>
+                                </li>
+                                -->
                                 <li><a href="#">Log in</a></li>
                             </ul>
                         </nav>
                     </div>
                 </div>
 
-                <div class="inner cover">
+                <div id="content" class="inner cover">
                     @RenderBody()
                 </div>
+                
+                <span style="display:none;"></span>
 
                 <div class="mastfoot">
                     <div class="inner">
@@ -84,5 +95,6 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     @*<script src="assets/js/ie10-viewport-bug-workaround.js"></script>*@
     @Scripts.Render("~/bundles/assets-viewport")
+    @Scripts.Render("~/bundles/GseLayout")
 </body>
 </html>

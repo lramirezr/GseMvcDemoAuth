@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
   <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-Gse.Erp.Auth-20160502094354.mdf;Initial Catalog=aspnet-Gse.Erp.Auth-20160502094354;Integrated Security=True" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\luis\\Documents\\Visual\ Studio\ 2015\\Projects\\Gse\.Erp\.Auth\\Gse\.Erp\.Auth\.Mvc\\obj\\Release\\Package\\PackageTmp\\web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="C:\\gseweclient\\GseMvcDemoAuth\\Gse\.Erp\.Auth\\Gse\.Erp\.Auth\.Mvc\\obj\\Release\\Package\\PackageTmp\\web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
   </parameter>
   <parameter name="DbUserConnection-Web.config Connection String" description="DbUserConnection Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="Server=tcp:gse-mvc-auth.database.windows.net,1433;Database=dbuser;User ID=perseo@gse-mvc-auth;Password=Sesamo2016;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\luis\\Documents\\Visual\ Studio\ 2015\\Projects\\Gse\.Erp\.Auth\\Gse\.Erp\.Auth\.Mvc\\obj\\Release\\Package\\PackageTmp\\web\.config$" match="/configuration/connectionStrings/add[@name='DbUserConnection']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="C:\\gseweclient\\GseMvcDemoAuth\\Gse\.Erp\.Auth\\Gse\.Erp\.Auth\.Mvc\\obj\\Release\\Package\\PackageTmp\\web\.config$" match="/configuration/connectionStrings/add[@name='DbUserConnection']/@connectionString" />
   </parameter>
 </parameters>
