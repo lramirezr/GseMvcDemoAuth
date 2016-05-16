@@ -31,9 +31,8 @@ namespace Gse.Erp.Auth.Mvc.Controllers
             return PartialView(); //return View();
         }
 
-        [HttpGet]
         [AllowAnonymous]
-        public ActionResult Address()
+        public PartialViewResult Address()
         {
             return PartialView();
         }
