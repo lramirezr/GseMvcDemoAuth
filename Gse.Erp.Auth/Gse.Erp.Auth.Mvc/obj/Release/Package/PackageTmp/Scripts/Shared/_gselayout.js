@@ -19,7 +19,10 @@ var setNavLink = function (e) {
         
         deactiveAllNavLinksCSS();
 
-        var uri = "/Home/" + e.target.hash.split('#')[1];
+        var controller = (e.target.hash === '#Login') ? '/Account' : '/Home';
+        var action = '/' + e.target.hash.split('#')[1];
+
+        var uri = controller + action;
         $.ajax({
             method: "GET",
             //contentType: 'application/html; charset=UTF-8',
@@ -42,5 +45,24 @@ function createNavMenuLinks() {
 }
 /* MAIN */
 $(document).ready(function () {
+
+    //// alert(location.hash);
+    //if (location.hash === '#Login')
+    //{
+    //    deactiveAllNavLinksCSS();
+
+    //    var controller = "/Account";
+    //    var action = '/' + location.hash.split('#')[1];
+
+    //    var uri = controller + action;
+    //    $.ajax({
+    //        method: "GET",
+    //        url: uri,
+    //        success: function (view) {
+    //            $("#content").html(view);
+    //            activeNavLinkCSS(location.hash);
+    //        }
+    //    });
+    //}
     createNavMenuLinks();
 });
