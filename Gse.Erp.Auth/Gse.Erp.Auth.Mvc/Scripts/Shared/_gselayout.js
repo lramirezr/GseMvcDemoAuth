@@ -16,7 +16,9 @@ function deactiveAllNavLinksCSS() {
 var setNavLink = function (e) {
 
     if (e.target.hash) {
-        
+
+        $("#exampleModal").modal('show');
+
         deactiveAllNavLinksCSS();
 
         var controller = (e.target.hash === '#Login') ? '/Account' : '/Home';
@@ -31,6 +33,11 @@ var setNavLink = function (e) {
             success: function (view) {
                 $("#content").html(view);
                 activeNavLinkCSS(location.hash);
+
+                $("#exampleModal").modal('hide');
+            },
+            error: function () {
+                $("#exampleModal").modal('hide');
             }
         });
     } else {

@@ -4,10 +4,10 @@
     <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\gseweclient\\GseMvcDemoAuth\\Gse\.Erp\.Auth\\Gse\.Erp\.Auth\.Mvc\\obj\\Release\\Package\\PackageTmp$" />
     <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\gseweclient\\GseMvcDemoAuth\\Gse\.Erp\.Auth\\Gse\.Erp\.Auth\.Mvc\\obj\\Release\\Package\\PackageTmp$" />
   </parameter>
-  <parameter name="DbUserConnection-Web.config Connection String" description="" value="Server=tcp:gse-mvc-auth.database.windows.net,1433;Database=dbuser;User ID=perseo@gse-mvc-auth;Password=Sesamo2016;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="">
-    <parameterEntry kind="XmlFile" scope="C:\\gseweclient\\GseMvcDemoAuth\\Gse\.Erp\.Auth\\Gse\.Erp\.Auth\.Mvc\\obj\\Release\\Package\\PackageTmp\\web\.config$" match="/configuration/connectionStrings/add[@name='DbUserConnection']/@connectionString" />
-  </parameter>
   <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-Gse.Erp.Auth-20160502094354.mdf;Initial Catalog=aspnet-Gse.Erp.Auth-20160502094354;Integrated Security=True" tags="">
     <parameterEntry kind="XmlFile" scope="C:\\gseweclient\\GseMvcDemoAuth\\Gse\.Erp\.Auth\\Gse\.Erp\.Auth\.Mvc\\obj\\Release\\Package\\PackageTmp\\web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="DbUserConnection-Web.config Connection String" description="DbUserConnection Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." value="Server=tcp:gse-mvc-auth.database.windows.net,1433;Database=dbuser;User ID=perseo@gse-mvc-auth;Password=Sesamo2016;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\gseweclient\\GseMvcDemoAuth\\Gse\.Erp\.Auth\\Gse\.Erp\.Auth\.Mvc\\obj\\Release\\Package\\PackageTmp\\web\.config$" match="/configuration/connectionStrings/add[@name='DbUserConnection']/@connectionString" />
   </parameter>
 </parameters>

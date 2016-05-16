@@ -9,7 +9,7 @@
 <div class="row">
     <div class="col-md-8">
         <section id="loginForm">
-            <form id="frmLogin" class="form-horizontal" role="form">
+            <form id="frmLogin" class="form-horizontal" action="#Login" role="form">
                 @*@using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
                 {*@
                 @Html.AntiForgeryToken()
@@ -60,6 +60,43 @@
             @Html.Partial("_ExternalLoginsListPartial", new ExternalLoginListViewModel { ReturnUrl = ViewBag.ReturnUrl })
         </section>
     </div>*@
+
+    <script language="javascript">
+
+        $("#frmLogin").submit(function (e) {
+            var __hash__ = e.target.action.slice(e.target.action.indexOf('#'));
+
+            var controller = (__hash__ === '#Login') ? '/Account' : '/Home';
+            var action = '/' + __hash__.split('#')[1];
+
+            var uri = controller + action;
+            $.ajax({
+                method: "POST",
+                url: uri,
+                data: $(e.target).serialize(),
+                success: function (data, textStatus, jqXHR) {
+                    $("#content").html(data);
+                    // $("#content").html(view);
+                    activeNavLinkCSS(__hash__);
+                    $("#exampleModal").modal('hide');
+                },
+                error: function (jqXHR, textStatus, errorThrow) {
+                    $("#exampleModal").modal('hide');
+                }
+            });
+            e.preventDefault();
+        });
+
+        var smbtLogin = function (e) {
+            $("#exampleModal").modal('show');
+            $("#frmLogin").submit();
+        };
+
+        $(document).ready(function(){
+
+            document.getElementById('smbtLogin').addEventListener("click", smbtLogin, false);
+        });
+    </script>
 </div>
 
 @section Scripts {
