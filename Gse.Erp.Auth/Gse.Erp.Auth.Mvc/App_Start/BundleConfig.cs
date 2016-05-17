@@ -27,28 +27,33 @@ namespace Gse.Erp.Auth.Mvc
                       "~/Content/site.css",
                       "~/Content/Shared/_Layout.css"));
 
-            /* css ~ GseContent */
+            /* css - GseContent */
             bundles.Add(new StyleBundle("~/GseContent/css").Include(
                 "~/Content/bootstrap.min.css",
                 "~/Content/assets/css/ie10-viewport-bug-workaround.css",
                 "~/Content/Shared/cover.css"));
 
-            /* javascript ~ GseAssets */
+            /* javascript - GseAssets */
             bundles.Add(new ScriptBundle("~/bundles/assets-responsive").Include(
                         "~/Scripts/assets/js/ie8-responsive-file-warning.js"));
-
             bundles.Add(new ScriptBundle("~/bundles/assets-emulation").Include(
                         "~/Scripts/assets/js/ie-emulation-modes-warning.js"));
-
             bundles.Add(new ScriptBundle("~/bundles/assets-viewport").Include(
                         "~/Scripts/assets/js/ie10-viewport-bug-workaround.js"));
 
-            /* javascript ~ GseBootstrap */
+            /* javascript - GseBootstrap */
             bundles.Add(new ScriptBundle("~/bundles/GseBootstrap").Include(
                       "~/Scripts/bootstrap.min.js"));
 
+            /* javascript - Shared/Layout */
             bundles.Add(new ScriptBundle("~/bundles/GseLayout").Include(
                 "~/Scripts/Shared/_gselayout.js"));
+
+            /* javascript - Account/Login */
+            bundles.Add(new ScriptBundle("~/bundles/GseLogin").Include(
+                "~/Scripts/Account/login.js"));
+
+            BundleTable.EnableOptimizations = true;
         }
     }
 }
