@@ -1,14 +1,14 @@
 C:\gseweclient\GseMvcDemoAuth\Gse.Erp.Auth\Gse.Erp.Auth.Mvc\bin\roslyn\csc.exe
-C:\gseweclient\GseMvcDemoAuth\Gse.Erp.Auth\Gse.Erp.Auth.Mvc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 C:\gseweclient\GseMvcDemoAuth\Gse.Erp.Auth\Gse.Erp.Auth.Mvc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
 C:\gseweclient\GseMvcDemoAuth\Gse.Erp.Auth\Gse.Erp.Auth.Mvc\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\gseweclient\GseMvcDemoAuth\Gse.Erp.Auth\Gse.Erp.Auth.Mvc\bin\roslyn\System.Reflection.Metadata.dll
+C:\gseweclient\GseMvcDemoAuth\Gse.Erp.Auth\Gse.Erp.Auth.Mvc\bin\roslyn\VBCSCompiler.exe
+C:\gseweclient\GseMvcDemoAuth\Gse.Erp.Auth\Gse.Erp.Auth.Mvc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 C:\gseweclient\GseMvcDemoAuth\Gse.Erp.Auth\Gse.Erp.Auth.Mvc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
 C:\gseweclient\GseMvcDemoAuth\Gse.Erp.Auth\Gse.Erp.Auth.Mvc\bin\roslyn\Microsoft.CSharp.Core.targets
 C:\gseweclient\GseMvcDemoAuth\Gse.Erp.Auth\Gse.Erp.Auth.Mvc\bin\roslyn\Microsoft.VisualBasic.Core.targets
 C:\gseweclient\GseMvcDemoAuth\Gse.Erp.Auth\Gse.Erp.Auth.Mvc\bin\roslyn\System.Collections.Immutable.dll
-C:\gseweclient\GseMvcDemoAuth\Gse.Erp.Auth\Gse.Erp.Auth.Mvc\bin\roslyn\System.Reflection.Metadata.dll
 C:\gseweclient\GseMvcDemoAuth\Gse.Erp.Auth\Gse.Erp.Auth.Mvc\bin\roslyn\vbc.exe
-C:\gseweclient\GseMvcDemoAuth\Gse.Erp.Auth\Gse.Erp.Auth.Mvc\bin\roslyn\VBCSCompiler.exe
 C:\gseweclient\GseMvcDemoAuth\Gse.Erp.Auth\Gse.Erp.Auth.Mvc\bin\roslyn\VBCSCompiler.exe.config
 C:\gseweclient\GseMvcDemoAuth\Gse.Erp.Auth\Gse.Erp.Auth.Mvc\bin\Gse.Erp.Auth.Mvc.dll.config
 C:\gseweclient\GseMvcDemoAuth\Gse.Erp.Auth\Gse.Erp.Auth.Mvc\bin\Gse.Erp.Auth.Mvc.dll
