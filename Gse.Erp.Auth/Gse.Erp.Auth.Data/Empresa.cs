@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Gse.Erp.MvcAuth.Data
+namespace Gse.Erp.Auth.Data
 {
     public class Empresa
     {

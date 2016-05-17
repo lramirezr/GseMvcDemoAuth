@@ -3,7 +3,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using System.Security.Claims;
 
-namespace Gse.Erp.MvcAuth.Data
+namespace Gse.Erp.Auth.Data
 {
     public class ApplicationUser : IdentityUser
     {

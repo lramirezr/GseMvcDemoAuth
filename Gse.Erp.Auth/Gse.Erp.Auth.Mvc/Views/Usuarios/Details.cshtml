@@ -1,0 +1,90 @@
+﻿@model Gse.Erp.Auth.Data.Usuario
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Usuario</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NombreUsuario)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NombreUsuario)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Contrasenya)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Contrasenya)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Apellidos)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Apellidos)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FechaNacimiento)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FechaNacimiento)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FechaAlta)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FechaAlta)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FechaBaja)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FechaBaja)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FechaModificacion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FechaModificacion)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

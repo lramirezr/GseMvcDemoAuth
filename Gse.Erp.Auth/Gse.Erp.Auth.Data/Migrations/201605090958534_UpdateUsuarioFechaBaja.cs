@@ -1,4 +1,4 @@
-namespace Gse.Erp.MvcAuth.Data.Migrations
+namespace Gse.Erp.Auth.Data.Migrations
 {
     using System;
     using System.Data.Entity.Migrations;
