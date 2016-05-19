@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gse.Erp.Auth.Repository", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gse.Erp.Auth.Data", "Gse.Erp.Auth.Data\Gse.Erp.Auth.Data.csproj", "{E51AE97A-0FFB-47F3-954F-CFF9A4ED42AE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gse.Erp.Clientes.ServicioWeb", "Gse.Erp.Clientes.ServicioWeb\Gse.Erp.Clientes.ServicioWeb.csproj", "{BF512F44-35AA-47FF-B429-7508CA6D481B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{E51AE97A-0FFB-47F3-954F-CFF9A4ED42AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E51AE97A-0FFB-47F3-954F-CFF9A4ED42AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E51AE97A-0FFB-47F3-954F-CFF9A4ED42AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF512F44-35AA-47FF-B429-7508CA6D481B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF512F44-35AA-47FF-B429-7508CA6D481B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF512F44-35AA-47FF-B429-7508CA6D481B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF512F44-35AA-47FF-B429-7508CA6D481B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
